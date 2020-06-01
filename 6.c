@@ -3,7 +3,8 @@
 #include<string.h>
 
 char str[100],ptr[100];
-int m,n,len,i,j,k,res,table[1000];
+int m,n,len,i,j,k,res;
+int table[1000]={0};
 void shift(char p[])
 {
 	len=strlen(p);
